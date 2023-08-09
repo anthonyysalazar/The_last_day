@@ -24,7 +24,7 @@ function responsiveMenu() {
     }
 }
 
-//detecto el scrolling para aplicar la animación del la barra de habilidades
+//detecto el scrolling para aplicar la animación del la barra de artistas
 window.onscroll = function() { efectoHabilidades() };
 
 //funcion que aplica la animación de la barra de habilidades
