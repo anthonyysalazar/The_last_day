@@ -364,10 +364,44 @@
             color: #000;
             margin-bottom: 25px;
         }
+        
+        /* principales influs */
+
+        #servicios .fila .servicio h4 {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+        
+        #servicios .fila .servicio hr {
+            width: 30%;
+            margin: auto;
+            color: #000;
+            margin-bottom: 25px;
+        }
+        
+        #principales .fila .servicio ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+        
+        #principales .fila .servicio p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        #principales .fila .servicio.tag{
+            width: 30%;
+            margin: auto;
+            color: #000;
+            margin-bottom: 25px;
+        }
+
+
         /* *********************/
     
         /* *********************/
-        /* seccion P O R T F O L I O */
+        /* seccion I N F L U E  N C E R S */
         /* *********************/
         
         #portfolio {
