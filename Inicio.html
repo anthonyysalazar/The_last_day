@@ -22,9 +22,10 @@
                         <ul id="links">
                             <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
                             <li><a href="/Screens/About.html" onclick="seleccionar(this)">Sobre nosotros</a></li>
-                            <li><a href="/Screens/influencers.html" onclick="seleccionar(this)">Influencers</a></li>
+                            <li><a href="/Screens/influencers.html" onclick="seleccionar(this)"></a></li>
                             <li><a href="/Screens/Artistas.html" onclick="seleccionar(this)">Artistas</a></li>
                             <li><a href="/Screens/Contacto.html" onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a href="Screens/servicios.html" onclick="seleccionar(this)">Otros Servicios</a></li>
                         </ul>
                     </nav>
 
@@ -35,43 +36,70 @@
 
 
                     <div class="redes">
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/lastagency_/"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a  href="#"><i class="fa-brands fa-youtube" size={240}></i></a>
+                        <a  href="#"><i class="fa-brands fa-facebook" ></i></a>
+                        <a  href="https://www.instagram.com/lastagency_/"><i class="fa-brands fa-instagram-square" ></i></a>
                     </div>
                 </div>
             </header>
+           
+
             <div class="presentacion">
                 <p class="bienvenida">Bienvenidos</p>
                 <h2>Somos Last Agency, empresa de representación de influencers y artistas</h2>
-                 <!-- Boton somos nosotros
-                <a href="./Screens/About.html">Ir a Sobre Nosotros</a>
-                -->
                 <div class="principales">
-                    <img class="imagenInfluencer" src="../IMG/david rivet.PNG" alt="fotoInfluencer">
-                   <h4>David Rivet</h4>
-                   <div class="redes">
-                       <a href="https://www.instagram.com/davidrivet_/"><img class="redSocial" src="../IMG/instagram.png" alt="Instagram"></a>
-                       <a href="https://www.tiktok.com/@davidrivet7?lang=es"><img class="redSocial" src="../IMG/TikTok.png" alt="TikTok"></a>
-                   </div>
-                   <div class="principales">
-                    <img class="imagenInfluencer" src="../IMG/Nereita.PNG" alt="fotoInfluencer">
-                    <h4>Nereita TK</h4>
-                    <div class="redes">
-                        <a href="https://www.instagram.com/nereita_tk300/"><img class="redSocial" src="../IMG/instagram.png" alt="Instagram"></a>
-                        <a href="https://www.tiktok.com/@nereita_tk300"><img class="redSocial" src="../IMG/TikTok.png" alt="TikTok"></a>
-                    </div>
-                    <div class="servicio">
-                        <img class="imagenInfluencer" src="../IMG/jesus 7.PNG" alt="fotoInfluencer">
-                        <h4>Jesus</h4>
+            
+                    <div class="influ">
+                        <img class="imagenInfluencer" style="height: 400px;" src="../IMG/david rivet.PNG" alt="fotoInfluencer">
+                        <h4>David Rivet</h4>
                         <div class="redes">
-                            <a href="https://www.instagram.com/7.jesuss/"><img class="redSocial" src="../IMG/instagram.png" alt="Instagram"></a>
-                            <a href="https://www.tiktok.com/@7.jesuss03?_t=8blS569bt1O&_r=1"><img class="redSocial" src="../IMG/TikTok.png" alt="TikTok"></a>
+                            <a href="https://www.instagram.com/davidrivet_/"><img style="box-shadow: 1px 1px 5px 10px white;" class="redSocial" src="../last agency/IMG/insta-logo-negro.png" alt="Instagram"></a>
+                            <a href="https://www.tiktok.com/@davidrivet7?lang=es"><img  class="redSocial" src="../last agency/IMG/tiktok.png2.png" alt="TikTok"></a>
                         </div>
                     </div>
-               </div>
+            
+                    <div class="influ">
+                        <img class="imagenInfluencer" style="height: 400px;" src="../IMG/Nereita.PNG" alt="fotoInfluencer">
+                        <h4>Nereita TK</h4>
+                        <div class="redes">
+                            <a href="https://www.instagram.com/nereita_tk300/"><img style="box-shadow: 1px 1px 5px 10px white;" class="redSocial" src="../last agency/IMG/insta-logo-negro.png" alt="Instagram"></a>
+                            <a href="https://www.tiktok.com/@nereita_tk300"><img class="redSocial" src="../last agency/IMG/tiktok.png2.png" alt="TikTok"></a>
+                        </div>
+                    </div>
+            
+                    <div class="influ">
+                        <img class="imagenInfluencer" style="height: 400px;" src="../IMG/jesus 7.PNG" alt="fotoInfluencer">
+                        <h4>Jesus</h4>
+                        <div class="redes">
+                            <a href="https://www.instagram.com/7.jesuss/"><img style="box-shadow: 1px 1px 5px 10px white;" class="redSocial" src="../IMG/instagram.png" alt="Instagram"></a>
+                            <a href="https://www.tiktok.com/@7.jesuss03?_t=8blS569bt1O&_r=1"><img class="redSocial" src="../last agency/IMG/tiktok.png2.png" alt="TikTok"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
     <!-- SECCTION C O N T A C T O -->
     <section id="contacto">
@@ -95,8 +123,9 @@
     </section>
     
 
-    <!-- SECCION FOOTER -->
-    <footer>
+  <div class="elFooter">
+      <!-- SECCION FOOTER -->
+      <footer>
         <p>Todos los derechos reservados - 2023</p>
         <div class="redes">
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
@@ -105,6 +134,7 @@
         </div>
 
     </footer>
+  </div>
 
     <script src="script.js"></script>
 </body>
