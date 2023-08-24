@@ -176,7 +176,7 @@ html {
 #sobremi .sobremi .titulo-seccion {
   font-size: 22px;
   text-transform: uppercase;
-  color: #111135;
+  color: #f5f5f5;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
@@ -190,7 +190,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-  color: #ff5080;
+  color: #ffffff;
 }
 
 #sobremi .sobremi h3 {
@@ -230,14 +230,14 @@ html {
 #servicios {
   padding: 100px 15px;
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 #servicios .titulo-seccion {
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
-  color: #111135;
+  color: #ffffff;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
@@ -281,7 +281,7 @@ html {
  
 .fila2 .servicio {
   max-width: 350px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 30px;
   margin: 0 5px;
   border-radius: 5px;
@@ -296,7 +296,7 @@ html {
 
 #servicios .fila .servicio {
   max-width: 350px;
-  background-color: #fff;
+  background-color: #f77e0cf5;
   padding: 30px;
   margin: 0 5px;
   border-radius: 5px;
@@ -408,7 +408,7 @@ html {
 /* *********************/
 
 /* *********************/
-/* seccion I N F L U E  N C E R S */
+/* seccion A R T I S T A S  */
 /* *********************/
 
 #portfolio {
@@ -421,7 +421,7 @@ html {
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
-  color: #111135;
+  color: #fbfbff;
   text-decoration: underline;
   text-decoration-color: #d3d3d3;
   text-decoration-thickness: 5px;
@@ -457,7 +457,7 @@ html {
   position: absolute;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.8);
-  color: #ff5080;
+  color: #ffffff;
   width: 100%;
   padding: 10px;
   opacity: 0;
